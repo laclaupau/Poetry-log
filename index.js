@@ -22,45 +22,45 @@ const quotes = [
         author: 'Susan Sontag',
         isFemale: true,
         body: 'Get up quickly - just switch on the white light of the will.',
-        source: '',
-        sourceImg: '',
-        sourceReview: '',
+        source: 'Journal entry, October 15, 1973, in As Consciousness Is Harnessed to Flesh: Journals and Notebooks, 1964-1980.',
+        sourceImg: 'https://m.media-amazon.com/images/I/41KWOylw6dL._SX332_BO1,204,203,200_.jpg',
+        sourceReview: 'https://www.amazon.com/Consciousness-Harnessed-Flesh-Notebooks-1964-1980/dp/0374100764',
         tags: 'Advice'
     },
     {
         author: 'May Sarton',
         isFemale: true,
         body: 'Keep busy with survival. Imitate the trees. Learn to lose in order to recover, and remember that nothing stays the same for long.',
-        source: '',
-        sourceImg: '',
-        sourceReview: '',
+        source: 'Journal of a Solitude (New York: W.W.Norton, 1973), 34.',
+        sourceImg: 'https://m.media-amazon.com/images/I/41QXt+97BbL._SX330_BO1,204,203,200_.jpg',
+        sourceReview: 'https://www.amazon.com/Journal-Solitude-May-Sarton/dp/0393309282',
         tags: 'Advice'
     },
     {
         author: 'Jeannette Winterson',
         isFemale: true,
         body: "I don't even want to please the reader, I want to change them.",
-        source: '',
-        sourceImg: '',
-        sourceReview: '',
+        source: 'Maya Jaggi, "Redemption Songs," Guardian, May 28, 2004.',
+        sourceImg: 'https://www.laizquierdadiario.com/local/cache-vignettes/L720xH405/arton107751-d44a8.jpg',
+        sourceReview: 'https://www.theguardian.com/books/2004/may/29/fiction.jeanettewinterson',
         tags: 'Audience'
     },
     {
         author: 'Junot Diaz',
         isFemale: false,
-        body: "You can't find intimacy when you're always hiding behind masks. Intimacy requires a certain level of vulnerability. It requires a certain level of you exposing your fragmented, contradictory self to someone else.",
-        source: '',
-        sourceImg: '',
-        sourceReview: '',
+        body: "Every time the loneliness rears up in you like a seething, burning continent, you tie on your shoes and hit the paths and that helps; it really does.",
+        source: 'This Is How You Lose Her, 2012.',
+        sourceImg: 'https://m.media-amazon.com/images/I/51G2GGjeBjL._SX318_BO1,204,203,200_.jpg',
+        sourceReview: 'https://www.amazon.com/-/es/Junot-D%C3%ADaz/dp/1594631778',
         tags: 'Love'
     },
     {
         author: 'Junot Diaz',
         isFemale: false,
-        body: 'And all I did was read, and when I was too high to read I stared out the windows.',
-        source: '',
-        sourceImg: '',
-        sourceReview: '',
+        body: "She was the kind of girlfriend God gives you young, so you'll know loss the rest of your life.",
+        source: 'The Brief Wondrous Life of Oscar Wao, 2007.',
+        sourceImg: 'https://m.media-amazon.com/images/I/51lPJDcI5UL._SX318_BO1,204,203,200_.jpg',
+        sourceReview: 'https://www.amazon.com/-/es/Junot-D%C3%ADaz/dp/1594483299',
         tags: 'Love'
     },
     {
@@ -192,13 +192,3 @@ const increaseLikes = () => {
 }
 
 increaseLikes();
-
-        // o en el onclick -->
-
-        //    likes.forEach((like, likeIndex) => {
-        //    if (heartIndex === likeIndex) {
-        //        let likesNumber = Number(like.textContent);
-        //        likesNumber++
-        //        like.textContent = likesNumber
-
-
