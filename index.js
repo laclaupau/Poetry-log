@@ -73,7 +73,61 @@ const quotes = [
         tags: 'Advice'
     },
     {
-        author: 'Junot Diaz',
+        author: 'Roald Dahl',
+        isFemale: false,
+        body: 'I began to realize how important it was to be an enthusiast in life (...) if you are interested in something, no matter what it is, go at it at full speed ahead. Embrace it with both arms, hug it, love it and above all become passionate about it.',
+        source: 'My Uncle Oswald, 1979',
+        sourceImg: 'https://i.ebayimg.com/images/g/kcwAAOSwpoBf~ZFK/s-l500.jpg',
+        sourceReview: 'https://www.goodreads.com/book/show/6691.My_Uncle_Oswald',
+        tags: 'Love'
+    },
+    {
+        author: 'Anne Lamott',
+        isFemale: true,
+        body: "Keep your butt in the chair. You do it at the same time every day. You never wait for inspiration - it's ridiculous, it will never come.",
+        source: 'Beyond Bird by Bird, inverview by Kurt Andersen. April 29, 2011',
+        sourceImg: 'https://pbs.twimg.com/profile_images/621797154235940866/yqqrt4op_400x400.jpg',
+        sourceReview: 'https://www.wnyc.org/story/192108-anne-lamott-beyond-bird-bird/',
+        tags: 'Discipline'
+    },
+    {
+        author: 'Gabriel García Márquez',
+        isFemale: false,
+        body: 'Writing something is almost as hard as making a table. With both you are working with reality, a material just as hard as wood. Both are full of tricks and techniques. Basically very little magic and a lot of hard work are involved.',
+        source: 'The Art of Fiction, interview by Peter H. Stone, Paris Review N° 82 (Winter 1981).',
+        sourceImg: 'https://www.theparisreview.org/il/88f67bacad/large/GabrielGarciaMarquez.jpg',
+        sourceReview: 'https://www.theparisreview.org/interviews/3196/the-art-of-fiction-no-69-gabriel-garcia-marquez',
+        tags: 'Discipline'
+    },
+    {
+        author: 'Raymond Carver',
+        isFemale: false,
+        body: "Isak Dinesen said that she wrote a little every day, without hope and without despair. Someday I'll put that on a three-by-five card and tape it to the wall beside my desk.",
+        source: "A storyteller's Shoptalk. NYT Book Review, Feb 15, 1981",
+        sourceImg: 'https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2019/01/10/15471193982563.jpg',
+        sourceReview: 'https://archive.nytimes.com/www.nytimes.com/books/01/01/21/specials/carver-shoptalk.html',
+        tags: 'Discipline'
+    },    
+    {
+        author: 'Kenneth Goldsmith',
+        isFemale: false,
+        body: 'If you work on something a little bit every day, you end up with something that is massive.',
+        source: 'Interview by Mark Allen, Feb 6, 2013',
+        sourceImg: 'https://i.ytimg.com/vi/FAJRQJGc7DU/maxresdefault.jpg',
+        sourceReview: 'https://www.theawl.com/2013/02/proudly-fraudulent-an-interview-with-momas-first-poet-laureate-kenneth-goldsmith/',
+        tags: 'Discipline'
+    },
+    {
+        author: 'Ralph Waldo Emerson',
+        isFemale: false,
+        body: 'Finish each day before you begin the next, and interpose a solid wall of sleep between the two. This you cannot do without temperance.',
+        source: 'Journal entry, Jan 26, 1844',
+        sourceImg: 'https://m.media-amazon.com/images/I/51X3WDdjB7L._AC_SY780_.jpg',
+        sourceReview: 'https://www.amazon.com/Journals-Miscellaneous-Notebooks-Ralph-Emerson/dp/0674484509',
+        tags: 'Discipline'
+    },
+    {
+        author: '',
         isFemale: false,
         body: '',
         source: '',
@@ -81,6 +135,43 @@ const quotes = [
         sourceReview: '',
         tags: 'Love'
     },
+    {
+        author: '',
+        isFemale: false,
+        body: '',
+        source: '',
+        sourceImg: '',
+        sourceReview: '',
+        tags: 'Love'
+    },
+    {
+        author: '',
+        isFemale: false,
+        body: '',
+        source: '',
+        sourceImg: '',
+        sourceReview: '',
+        tags: 'Love'
+    },
+    {
+        author: '',
+        isFemale: false,
+        body: '',
+        source: '',
+        sourceImg: '',
+        sourceReview: '',
+        tags: 'Love'
+    },
+    {
+        author: '',
+        isFemale: false,
+        body: '',
+        source: '',
+        sourceImg: '',
+        sourceReview: '',
+        tags: 'Love'
+    },
+
 
 ]
 
