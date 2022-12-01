@@ -202,7 +202,6 @@ quotes.forEach(quote => {
 
 
 tagsFilter.onchange = () => {
-    console.log(tagsFilter.value)
     validateData()
 }
 
