@@ -176,7 +176,6 @@ const quotes = [
 ]
 
 
-
 const tagsFilter = document.querySelector("#tags")
 let femFilter = false
 const femFilterBtn = document.querySelector("#female-filter")
@@ -223,7 +222,7 @@ femFilterBtn.onclick = () => {
 
 const validateData = () => {
 
-    const filteredQuotes = quotes.filter((quote) => {
+    const filteredQuotes = quotes.filter(quote => {
         if (!tagsFilter.value && !femFilter) {
             return quote
         }
@@ -268,7 +267,6 @@ const increaseLikes = () => {
 
     const hearts = document.querySelectorAll(".heart")
     const likes = document.querySelectorAll("#likes")
-    let likesNumber = Number(likes.textContent)
 
 
     hearts.forEach((heart, heartIndex) => {
